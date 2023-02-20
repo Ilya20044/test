@@ -1,0 +1,72 @@
+.cta{
+    width: 100%;
+    height:441px;
+    display: flex;
+    background: rgb(241, 232, 232);
+    align-items: center;
+}
+
+.cta__image{
+    width: 269px;
+    height: 296px;
+    padding-right: 121px;
+    padding-left:224px ;
+}
+
+.cta__text1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    color: #2B292D;
+}
+
+.cta__text2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2B292D;
+    padding: 20px 0;
+}
+
+.cta__email{
+    display: flex;
+}
+
+.cta__input{
+    width: 385px;
+    height: 45px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 13px;
+    color: #2B292D;
+    margin-right: 10px;
+}
+
+.cta__text{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:1130px){
+    .cta__image{
+        padding: 50px;
+    }
+}
+@media(max-width:980px){
+    .cta__input{
+        width: 120px;
+    }
+}
+@media(max-width:768px){
+    .cta__image{
+        display: none;
+    }
+}
